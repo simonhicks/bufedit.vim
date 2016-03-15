@@ -78,10 +78,6 @@ function! bufedit#write()
   endif
 endfunction
 
-function! bufedit#read()
-  call s:resetcontent()
-endfunction
-
 function! bufedit#open()
   execute "new ".g:bufedit_buffer_name
   call s:bufopts()
