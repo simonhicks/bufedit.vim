@@ -30,7 +30,6 @@ endfunction
 function! s:bufopts()
   setlocal nobuflisted
   setlocal noswapfile
-  setlocal nohidden
   call s:resetcontent()
 endfunction
 
